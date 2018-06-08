@@ -7,7 +7,9 @@
  
  
  cfg  : https://github.com/pjreddie/darknet/blob/master/cfg/yolov2-tiny.cfg
+ 
  weights: https://pjreddie.com/media/files/yolov2-tiny.weights
+ 
  no batch : 
  
 Batch normalization is important when training a deep network, but it turns out we can get rid of it at inference time.
